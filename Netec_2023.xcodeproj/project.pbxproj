@@ -7,23 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3985FD32A454F14004D296B /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3985FCD2A454F14004D296B /* HomePresenter.swift */; };
+		C3985FD42A454F14004D296B /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3985FCE2A454F14004D296B /* HomeRouter.swift */; };
+		C3985FD52A454F14004D296B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3985FCF2A454F14004D296B /* HomeViewController.swift */; };
+		C3985FD62A454F14004D296B /* HomeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3985FD02A454F14004D296B /* HomeProtocols.swift */; };
+		C3985FD72A454F14004D296B /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3985FD12A454F14004D296B /* HomeInteractor.swift */; };
+		C3985FE02A4551B8004D296B /* ContactosPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3985FDA2A4551B8004D296B /* ContactosPresenter.swift */; };
+		C3985FE12A4551B8004D296B /* ContactosRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3985FDB2A4551B8004D296B /* ContactosRouter.swift */; };
+		C3985FE22A4551B8004D296B /* ContactosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3985FDC2A4551B8004D296B /* ContactosViewController.swift */; };
+		C3985FE32A4551B8004D296B /* ContactosProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3985FDD2A4551B8004D296B /* ContactosProtocols.swift */; };
+		C3985FE42A4551B8004D296B /* ContactosInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3985FDE2A4551B8004D296B /* ContactosInteractor.swift */; };
+		C3985FE82A4552D9004D296B /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3985FE72A4552D9004D296B /* TableViewCell.swift */; };
 		C3A13D6D2A4403380066DFE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A13D6C2A4403380066DFE7 /* AppDelegate.swift */; };
-		C3A13D6F2A4403380066DFE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A13D6E2A4403380066DFE7 /* SceneDelegate.swift */; };
-		C3A13D712A4403380066DFE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A13D702A4403380066DFE7 /* ViewController.swift */; };
-		C3A13D742A4403380066DFE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3A13D722A4403380066DFE7 /* Main.storyboard */; };
 		C3A13D762A4403390066DFE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3A13D752A4403390066DFE7 /* Assets.xcassets */; };
 		C3A13D792A4403390066DFE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3A13D772A4403390066DFE7 /* LaunchScreen.storyboard */; };
+		C3A13D892A4403CA0066DFE7 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A13D832A4403CA0066DFE7 /* LoginPresenter.swift */; };
+		C3A13D8A2A4403CA0066DFE7 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A13D842A4403CA0066DFE7 /* LoginRouter.swift */; };
+		C3A13D8B2A4403CA0066DFE7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A13D852A4403CA0066DFE7 /* LoginViewController.swift */; };
+		C3A13D8C2A4403CA0066DFE7 /* LoginProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A13D862A4403CA0066DFE7 /* LoginProtocols.swift */; };
+		C3A13D8D2A4403CA0066DFE7 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A13D872A4403CA0066DFE7 /* LoginInteractor.swift */; };
+		C3A13D8E2A4403CA0066DFE7 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3A13D882A4403CA0066DFE7 /* LoginViewController.xib */; };
+		C3A13D902A440A220066DFE7 /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A13D8F2A440A220066DFE7 /* UIExtension.swift */; };
+		C3D455412A45039F003656B0 /* RecuperacionPasswordPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D4553B2A45039F003656B0 /* RecuperacionPasswordPresenter.swift */; };
+		C3D455422A45039F003656B0 /* RecuperacionPasswordRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D4553C2A45039F003656B0 /* RecuperacionPasswordRouter.swift */; };
+		C3D455432A45039F003656B0 /* RecuperacionPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D4553D2A45039F003656B0 /* RecuperacionPasswordViewController.swift */; };
+		C3D455442A45039F003656B0 /* RecuperacionPasswordProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D4553E2A45039F003656B0 /* RecuperacionPasswordProtocols.swift */; };
+		C3D455452A45039F003656B0 /* RecuperacionPasswordInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D4553F2A45039F003656B0 /* RecuperacionPasswordInteractor.swift */; };
+		C3D4554D2A450D23003656B0 /* RegistroPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D455472A450D23003656B0 /* RegistroPresenter.swift */; };
+		C3D4554E2A450D23003656B0 /* RegistroRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D455482A450D23003656B0 /* RegistroRouter.swift */; };
+		C3D4554F2A450D23003656B0 /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D455492A450D23003656B0 /* RegistroViewController.swift */; };
+		C3D455502A450D23003656B0 /* RegistroProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D4554A2A450D23003656B0 /* RegistroProtocols.swift */; };
+		C3D455512A450D23003656B0 /* RegistroInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D4554B2A450D23003656B0 /* RegistroInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C3985FCD2A454F14004D296B /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		C3985FCE2A454F14004D296B /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		C3985FCF2A454F14004D296B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C3985FD02A454F14004D296B /* HomeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProtocols.swift; sourceTree = "<group>"; };
+		C3985FD12A454F14004D296B /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		C3985FDA2A4551B8004D296B /* ContactosPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactosPresenter.swift; sourceTree = "<group>"; };
+		C3985FDB2A4551B8004D296B /* ContactosRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactosRouter.swift; sourceTree = "<group>"; };
+		C3985FDC2A4551B8004D296B /* ContactosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactosViewController.swift; sourceTree = "<group>"; };
+		C3985FDD2A4551B8004D296B /* ContactosProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactosProtocols.swift; sourceTree = "<group>"; };
+		C3985FDE2A4551B8004D296B /* ContactosInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactosInteractor.swift; sourceTree = "<group>"; };
+		C3985FE72A4552D9004D296B /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		C3A13D692A4403380066DFE7 /* Netec_2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Netec_2023.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3A13D6C2A4403380066DFE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C3A13D6E2A4403380066DFE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C3A13D702A4403380066DFE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C3A13D732A4403380066DFE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3A13D752A4403390066DFE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3A13D782A4403390066DFE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3A13D7A2A4403390066DFE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3A13D832A4403CA0066DFE7 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		C3A13D842A4403CA0066DFE7 /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		C3A13D852A4403CA0066DFE7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C3A13D862A4403CA0066DFE7 /* LoginProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProtocols.swift; sourceTree = "<group>"; };
+		C3A13D872A4403CA0066DFE7 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		C3A13D882A4403CA0066DFE7 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		C3A13D8F2A440A220066DFE7 /* UIExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
+		C3D4553B2A45039F003656B0 /* RecuperacionPasswordPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecuperacionPasswordPresenter.swift; sourceTree = "<group>"; };
+		C3D4553C2A45039F003656B0 /* RecuperacionPasswordRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecuperacionPasswordRouter.swift; sourceTree = "<group>"; };
+		C3D4553D2A45039F003656B0 /* RecuperacionPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecuperacionPasswordViewController.swift; sourceTree = "<group>"; };
+		C3D4553E2A45039F003656B0 /* RecuperacionPasswordProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecuperacionPasswordProtocols.swift; sourceTree = "<group>"; };
+		C3D4553F2A45039F003656B0 /* RecuperacionPasswordInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecuperacionPasswordInteractor.swift; sourceTree = "<group>"; };
+		C3D455472A450D23003656B0 /* RegistroPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroPresenter.swift; sourceTree = "<group>"; };
+		C3D455482A450D23003656B0 /* RegistroRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroRouter.swift; sourceTree = "<group>"; };
+		C3D455492A450D23003656B0 /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
+		C3D4554A2A450D23003656B0 /* RegistroProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroProtocols.swift; sourceTree = "<group>"; };
+		C3D4554B2A450D23003656B0 /* RegistroInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +87,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C3985FCC2A454EFE004D296B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C3985FCD2A454F14004D296B /* HomePresenter.swift */,
+				C3985FCE2A454F14004D296B /* HomeRouter.swift */,
+				C3985FCF2A454F14004D296B /* HomeViewController.swift */,
+				C3985FD02A454F14004D296B /* HomeProtocols.swift */,
+				C3985FD12A454F14004D296B /* HomeInteractor.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C3985FD92A45519F004D296B /* Contactos */ = {
+			isa = PBXGroup;
+			children = (
+				C3985FDA2A4551B8004D296B /* ContactosPresenter.swift */,
+				C3985FDB2A4551B8004D296B /* ContactosRouter.swift */,
+				C3985FDC2A4551B8004D296B /* ContactosViewController.swift */,
+				C3985FDD2A4551B8004D296B /* ContactosProtocols.swift */,
+				C3985FDE2A4551B8004D296B /* ContactosInteractor.swift */,
+				C3985FE62A4552C0004D296B /* Cell */,
+			);
+			path = Contactos;
+			sourceTree = "<group>";
+		};
+		C3985FE62A4552C0004D296B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C3985FE72A4552D9004D296B /* TableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		C3A13D602A4403370066DFE7 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +139,55 @@
 		C3A13D6B2A4403380066DFE7 /* Netec_2023 */ = {
 			isa = PBXGroup;
 			children = (
+				C3985FD92A45519F004D296B /* Contactos */,
+				C3985FCC2A454EFE004D296B /* Home */,
 				C3A13D6C2A4403380066DFE7 /* AppDelegate.swift */,
-				C3A13D6E2A4403380066DFE7 /* SceneDelegate.swift */,
-				C3A13D702A4403380066DFE7 /* ViewController.swift */,
-				C3A13D722A4403380066DFE7 /* Main.storyboard */,
 				C3A13D752A4403390066DFE7 /* Assets.xcassets */,
 				C3A13D772A4403390066DFE7 /* LaunchScreen.storyboard */,
 				C3A13D7A2A4403390066DFE7 /* Info.plist */,
+				C3A13D8F2A440A220066DFE7 /* UIExtension.swift */,
+				C3D4553A2A450360003656B0 /* RecuperacionPassword */,
+				C3A13D822A4403A80066DFE7 /* Registro */,
+				C3A13D802A44037D0066DFE7 /* Login */,
 			);
 			path = Netec_2023;
+			sourceTree = "<group>";
+		};
+		C3A13D802A44037D0066DFE7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C3A13D832A4403CA0066DFE7 /* LoginPresenter.swift */,
+				C3A13D842A4403CA0066DFE7 /* LoginRouter.swift */,
+				C3A13D852A4403CA0066DFE7 /* LoginViewController.swift */,
+				C3A13D862A4403CA0066DFE7 /* LoginProtocols.swift */,
+				C3A13D872A4403CA0066DFE7 /* LoginInteractor.swift */,
+				C3A13D882A4403CA0066DFE7 /* LoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C3A13D822A4403A80066DFE7 /* Registro */ = {
+			isa = PBXGroup;
+			children = (
+				C3D455472A450D23003656B0 /* RegistroPresenter.swift */,
+				C3D455482A450D23003656B0 /* RegistroRouter.swift */,
+				C3D455492A450D23003656B0 /* RegistroViewController.swift */,
+				C3D4554A2A450D23003656B0 /* RegistroProtocols.swift */,
+				C3D4554B2A450D23003656B0 /* RegistroInteractor.swift */,
+			);
+			path = Registro;
+			sourceTree = "<group>";
+		};
+		C3D4553A2A450360003656B0 /* RecuperacionPassword */ = {
+			isa = PBXGroup;
+			children = (
+				C3D4553B2A45039F003656B0 /* RecuperacionPasswordPresenter.swift */,
+				C3D4553C2A45039F003656B0 /* RecuperacionPasswordRouter.swift */,
+				C3D4553D2A45039F003656B0 /* RecuperacionPasswordViewController.swift */,
+				C3D4553E2A45039F003656B0 /* RecuperacionPasswordProtocols.swift */,
+				C3D4553F2A45039F003656B0 /* RecuperacionPasswordInteractor.swift */,
+			);
+			path = RecuperacionPassword;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +250,7 @@
 			files = (
 				C3A13D792A4403390066DFE7 /* LaunchScreen.storyboard in Resources */,
 				C3A13D762A4403390066DFE7 /* Assets.xcassets in Resources */,
-				C3A13D742A4403380066DFE7 /* Main.storyboard in Resources */,
+				C3A13D8E2A4403CA0066DFE7 /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +261,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3A13D712A4403380066DFE7 /* ViewController.swift in Sources */,
+				C3985FE02A4551B8004D296B /* ContactosPresenter.swift in Sources */,
+				C3A13D892A4403CA0066DFE7 /* LoginPresenter.swift in Sources */,
+				C3985FD72A454F14004D296B /* HomeInteractor.swift in Sources */,
+				C3985FE22A4551B8004D296B /* ContactosViewController.swift in Sources */,
+				C3D455412A45039F003656B0 /* RecuperacionPasswordPresenter.swift in Sources */,
+				C3985FE82A4552D9004D296B /* TableViewCell.swift in Sources */,
 				C3A13D6D2A4403380066DFE7 /* AppDelegate.swift in Sources */,
-				C3A13D6F2A4403380066DFE7 /* SceneDelegate.swift in Sources */,
+				C3985FE42A4551B8004D296B /* ContactosInteractor.swift in Sources */,
+				C3D4554D2A450D23003656B0 /* RegistroPresenter.swift in Sources */,
+				C3985FD62A454F14004D296B /* HomeProtocols.swift in Sources */,
+				C3985FE12A4551B8004D296B /* ContactosRouter.swift in Sources */,
+				C3985FD42A454F14004D296B /* HomeRouter.swift in Sources */,
+				C3D455432A45039F003656B0 /* RecuperacionPasswordViewController.swift in Sources */,
+				C3A13D8D2A4403CA0066DFE7 /* LoginInteractor.swift in Sources */,
+				C3D455502A450D23003656B0 /* RegistroProtocols.swift in Sources */,
+				C3A13D902A440A220066DFE7 /* UIExtension.swift in Sources */,
+				C3A13D8A2A4403CA0066DFE7 /* LoginRouter.swift in Sources */,
+				C3D455422A45039F003656B0 /* RecuperacionPasswordRouter.swift in Sources */,
+				C3A13D8C2A4403CA0066DFE7 /* LoginProtocols.swift in Sources */,
+				C3D455452A45039F003656B0 /* RecuperacionPasswordInteractor.swift in Sources */,
+				C3A13D8B2A4403CA0066DFE7 /* LoginViewController.swift in Sources */,
+				C3D455512A450D23003656B0 /* RegistroInteractor.swift in Sources */,
+				C3985FD52A454F14004D296B /* HomeViewController.swift in Sources */,
+				C3D455442A45039F003656B0 /* RecuperacionPasswordProtocols.swift in Sources */,
+				C3985FD32A454F14004D296B /* HomePresenter.swift in Sources */,
+				C3D4554F2A450D23003656B0 /* RegistroViewController.swift in Sources */,
+				C3985FE32A4551B8004D296B /* ContactosProtocols.swift in Sources */,
+				C3D4554E2A450D23003656B0 /* RegistroRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C3A13D722A4403380066DFE7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C3A13D732A4403380066DFE7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C3A13D772A4403390066DFE7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,9 +432,9 @@
 				INFOPLIST_FILE = Netec_2023/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,9 +460,9 @@
 				INFOPLIST_FILE = Netec_2023/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

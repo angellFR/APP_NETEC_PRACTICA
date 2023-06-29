@@ -80,6 +80,15 @@ class LoginViewController: UIViewController {
         return button
     }()
     
+    private lazy var buttonP: UIButton = {
+        let button = UIButton()
+        button.setTitle("Recuperar contrasena", for: .normal)
+        button.setTitleColor(UIColor.systemGreen, for: .normal)
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.addTarget(self, action: #selector(recuperarPassword), for: .touchUpInside)
+        return button
+    }()
+    
  
     //MARK: - Life Cycle
 	override func viewDidLoad() {
